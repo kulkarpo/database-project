@@ -1,0 +1,118 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f7f7f7;
+    /* Old browsers */
+    background: -moz-linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%);
+}
+/*all elements*/
+* {
+    font-family: 'Raleway', serif;
+    font-size: 20px;
+    /*border: 1px solid rgba(0, 0, 0, 0.3);*/
+    box-sizing: border-box;
+}
+
+.logout {
+    position: fixed;
+    left: 0;
+    top: 0;
+    text-align: right;
+    width: 100%;
+    z-index: 10000;
+}
+
+/*HOME in the field up*/
+.logout li {
+    color: #ffcc33;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 20px 20px;
+    text-transform: uppercase;
+}
+
+/*fixed field up*/
+.navigation {
+    background-color: rgba(255, 173, 51, 0.8);
+    position: fixed;
+    left: 0;
+    top: 0;
+    text-align: right;
+    width: 100%;
+    z-index: 10000;
+}
+
+/*HOME in the field up*/
+.navigation li {
+    color: #ffcc33;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 20px 20px;
+    text-transform: uppercase;
+}
+
+.header {
+    background-image: url("images/final_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    background-attachment: fixed;
+
+}
+
+/* First Heading: Welcome!*/
+h1 {
+    color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(255, 173, 51, 0.6);
+    font-family: Raleway, sans-serif;
+    font-size: 100px;
+    line-height: 76px;
+    margin: 0;
+    position: relative;
+    top: 800px;
+    text-align: left;
+    padding: 0px 20px;
+}
+
+/*all links*/
+a {
+    color: rgb(0, 0, 128);
+    text-decoration: none;
+    margin: 20px 20px;
+}
+
+/*all paragraphs*/
+p {
+    line-hight: 1.7em;
+    words-spacing: 0.05em;
+    /*min-width: 200px;*/
+    max-width: 1800px;
+    /*overflow: scroll;*/
+    margin: 20px 20px;
+}
+
+/*Credentials for the webpage Menu at the end*/
+.credentials{
+    background: rgba(255,173,51, 0.8) center bottom;
+    text-align: right;
+    width: 100%;
+}
+
+.credentials p {
+    color: #14213D;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 20px 20px;
+    text-transform: uppercase;
+}
